@@ -142,7 +142,6 @@ namespace howell.gameServers
             public readonly static string DISCORD_SECRET = System.Environment.GetEnvironmentVariable("DISCORD_SECRET");
             public readonly static string DISCORD_BOT_TOKEN = System.Environment.GetEnvironmentVariable("DISCORD_BOT_TOKEN");
             public readonly static string AZURE_SUB_ID = System.Environment.GetEnvironmentVariable("AZURE_SUB_ID");
-            public readonly static string KUBECONFIG_BASE64 = System.Environment.GetEnvironmentVariable("KUBECONFIG");
         }
     }
 }
